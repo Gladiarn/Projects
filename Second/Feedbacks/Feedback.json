@@ -1,0 +1,24 @@
+{"Feedback":[
+
+    {"Name": "John Doe",
+     "Message": "Had a Good sleep in Book King! The bed was super clean and comfortable. Definitely a 10/10 Experience!",
+     "Picture": "https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": 1,
+    "Class": "firstcard",
+    "Email": "JohnDoe@Gmail.com"},
+
+     {"Name": "Jane Samson",
+     "Message": "Definitely Coming back again if ever, this will be my first choice!",
+     "Picture": "https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "id": 2,
+     "Class": "secondcard",
+     "Email": "SamsonJane@Gmail.com"},
+
+     {"Name": "Cris Luo",
+     "Message": "It was the best vacation of my Life! I wanted to take more vacations.",
+     "Picture": "https://images.unsplash.com/photo-1635488640163-e5f6782cda6e?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     "id": 3,
+     "Class": "thirdcard",
+     "Email": "Criszy@Gmail.com"}
+
+]}

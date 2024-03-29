@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Card-Container{
+    height: 250px;
+    width: clamp(250px 350px, 350px);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.212);
+}
+
+.Cards{
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.firstcard{
+    grid-column: 1/2;
+    padding: 10px;
+
+}
+.secondcard{
+    padding: 10px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+.thirdcard{
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+.Cards img{
+    max-width: 100px;
+    min-width: 100px;
+    height: 100px;
+    display: flex;
+    flex: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(119, 180, 83);
+}
+
+.Card-Top{
+    display: flex;
+    align-items: center;
+}
+
+.Card-Name{
+    font-weight: 550;
+    font-size: 1.3rem;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Card-Bottom{
+    margin-top: 10px;
+}
+
+.quote-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Card-Message{
+    text-align: center;
+}
+
+.quotes{
+    color: rgb(119, 180, 83);
+}
+
+.Name-Email i{
+    color: gray;
+    margin-left: 20px;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.rating-container{    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+.rating-container .star{
+    color: rgb(255, 166, 0);
+}
+
+@media ( width <= 755px){
+    .Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}

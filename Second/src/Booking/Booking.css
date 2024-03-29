@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.Booking-Container{
+    position: relative;
+    background-color: hsl(0, 0%, 95%);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.Form-Container{
+    z-index: 1;
+    background-color: #acabb0;
+    background: linear-gradient(to right, rgb(105, 167, 70), rgb(51, 139, 147));
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.312);
+    font-size: large;
+    height: clamp(350px, 160%, 400%);
+    width: clamp(90vw, 75vw, 75vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    border-radius: 9% 91% 9% 91% / 90% 13% 87% 10%;
+    padding: auto;
+    flex-wrap: wrap;
+    
+}
+
+.Form-Container form{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    margin-right: 5px;
+}
+
+.adults-container div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    align-items: center;
+}
+.children-container div{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+.children-container button, .adults-container button{
+    height: 40px;
+    width: 50px;
+    background-color: hsla(0, 0%, 100%, 0.147);
+    color: white;
+    border: 1px solid white;
+
+}
+
+.checkin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.checkin-container input{
+    border-radius: 20px;
+    padding: 10px;
+    width: clamp(100px,250px,400px);
+    
+}
+.checkout-container input{
+    border-radius: 20px;
+    padding: 10px;
+    width: clamp(150px,250px,400px);
+    
+}
+.checkout-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Form-Container p{
+    text-align: center;
+    position: relative;
+    bottom: 75%;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.btnholder{
+    display: flex;
+    align-items: center;
+}
+
+#Search{
+    
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    margin-right: -15px;
+    background-color: hsla(0, 0%, 100%, 0.021);
+    border: 2px solid white;
+    color: white;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.411);
+
+    transition: transform .1s ease-in-out;
+}
+#Search:hover{
+    bottom: 7%;
+    transform: translateY(-5px);
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+}
+.Form-Container input{
+    
+    
+    height: 40px;
+
+}
+input:hover{
+   cursor: pointer;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.children-container label, .adults-container label{
+    position: absolute;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+input[type="date"]{
+    color: white;
+    background-color: hsla(0, 0%, 100%, 0.11);
+    border: white 1px solid;
+    padding: 20px;
+}
+::-webkit-calendar-picker-indicator{
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+@media (width <= 1000px){
+  .Form-Container-Form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .Form-Container{
+    height: 470px;
+}
+
+  .btnholder{
+    display: flex;
+    justify-content: center;
+  }
+  .adults-container div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+.children-container div{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+}
+
